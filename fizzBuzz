@@ -1,0 +1,6 @@
+for (let x = 1; x <= 100; x++) {
+  let output = "";
+  if (x % 3 == 00) output += "fizz";
+  if (x % 5 == 00) output += "buzz";
+  console.log(output || x)
+}
